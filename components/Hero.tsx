@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="max-container padding-container flex flex-col gap-20 py-5 md:gap-28 lg:py-10 lg:flex-row mb-40">
       <div className="flexCenter max-container absolute object-cover" >
         <Image
-          src='/SORA.jpeg'
+          src='/SORA.jpg'
           alt='yoga'  
           width={1440}
           height={580}
@@ -43,3 +43,4 @@ const Hero = () => {
 }
 
 export default Hero
+
