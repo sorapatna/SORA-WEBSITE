@@ -1,0 +1,191 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --font-inter: var(--font-inter);
+  }
+
+@layer base {
+/* custom styles */
+body {
+  font-family: sans-serif;
+}
+}
+
+li {
+    padding: 0.5rem;
+}
+
+
+/* 2. Custom Utilities (Buttons & Layout) */
+@utility btn_white { @apply border-white bg-white px-8 py-3 text-gray-500; }
+@utility btn_white_text { @apply border-white bg-white px-8 py-3 text-gray-900; }
+@utility btn_green { @apply border-green-500 bg-green-500 px-8 py-5 text-white; }
+@utility btn_dark_green { @apply bg-green-900 px-8 py-4 text-white transition-all hover:bg-black; }
+@utility btn_dark_green_outline { @apply border-gray-200 bg-green-900 px-8 py-5 text-white; }
+@utility btn_blue { @apply border-black bg-blue-500 px-8 py-4 text-white; }
+
+@utility max-container { @apply mx-auto max-w-[1440px]; }
+@utility padding-container { @apply px-2 lg:px-10; }
+
+@utility flexCenter { @apply flex items-center justify-center; }
+@utility flexBetween { @apply flex items-center justify-between; }
+@utility flexStart { @apply flex items-center justify-start; }
+@utility flexEnd { @apply flex items-center justify-end; }
+  
+ /* FONTS */
+  @utility regular-64 {
+    @apply text-[64px] font-normal leading-[120%];
+  }
+  @utility regular-40 {
+    @apply text-[40px] font-normal leading-[120%];
+  }
+
+  @utility regular-32 {
+    @apply text-[32px] font-normal;
+  }
+
+  @utility regular-24 {
+    @apply text-[24px] font-normal;
+  }
+
+  @utility regular-20 {
+    @apply text-[20px] font-normal;
+  }
+
+  @utility regular-18 {
+    @apply text-[18px] font-normal;
+  }
+
+  @utility regular-16 {
+    @apply text-[16px] font-normal;
+  }
+
+  @utility regular-14 {
+    @apply text-[14px] font-normal;
+  }
+
+  @utility regular-12 {
+    @apply text-[12px] font-normal;
+  }
+
+  @utility medium-14 {
+    @apply text-[14px] font-semibold;
+  }
+
+  @utility bold-88 {
+    @apply text-[88px] font-bold leading-[120%];
+  }
+
+  @utility bold-64 {
+    @apply text-[64px] font-bold  leading-[120%];
+  }
+
+  @utility bold-52 {
+    @apply text-[52px] font-bold  leading-[120%];
+  }
+
+  @utility bold-40 {
+    @apply text-[40px] font-bold  leading-[120%];
+  }
+
+  @utility bold-32 {
+    @apply text-[32px] font-bold  leading-[120%];
+  }
+
+  @utility bold-20 {
+    @apply text-[20px] font-bold ;
+  }
+
+  @utility bold-18 {
+    @apply text-[18px] font-bold ;
+  }
+
+  @utility bold-16 {
+    @apply text-[16px] font-bold ;
+  }
+  /* 4. Section Utilities */
+@utility hero-map { @apply absolute right-0 top-0 h-screen w-screen md:-right-28 xl:-top-60; }
+@utility camp-quote { @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 2xl:right-0; }
+@utility feature-phone { @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-15 md:-left-16 lg:flex 2xl:left-20; }
+@utility get-app { 
+    @apply relative flex  flexCenter w-full bg-linear-to-r from-pink-400 via-purple-500 to-indigo-500 bg-cover bg-center bg-no-repeat px-6 py-12 text-black sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-3xl; 
+}
+
+/* 5. Custom Raw CSS Styles */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.testimonialbg {
+    background: linear-gradient(-60deg, #1CBEEE 29.34%, #1A21BC 107.98%);
+    clip-path: polygon(100% 0, 100% 38%, 100% 100%, 0 100%, 0 20%);
+}
+
+.clipPath {
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+}
+
+.space-links { transition: .3s; }
+.space-links:hover { letter-spacing: 1px; }
+
+.lh-82 { line-height: 82% !important; }
+.lh-120 { line-height: 120% !important; }
+.lh-160 { line-height: 160% !important; }
+
+.footer-icons { transition: .5s; }
+.footer-icons:hover { transform: translateY(-8px); }
+.footer-icons:hover > .sepiaa { filter: invert(1); }
+
+/* Slick Slider Fixes */
+.slick-dots li.slick-active button:before { color: #1A21BC !important; opacity: 1; }
+.slick-dots li button:before { font-size: 11px !important; }
+.slick-prev { left: 69rem !important; }
+
+.slick-prev, .slick-next {
+    position: absolute;
+    top: -14% !important;
+    display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media (min-width: 800px) {
+    .lh-82 { line-height: 82px !important; }
+}
+
+.input-shadow { box-shadow: 0px 63px 59px rgba(26, 33, 188, 0.1); }
+.w-270 { width: 270px; }
+
+@media (max-width: 450px) {
+    .smallImage { width: 15px; }
+}
+
+
+
+.shadow-courses { box-shadow: 0px 40px 20px rgba(0, 0, 0, 0.15); }
+.testimonial-shadow {
+    box-shadow: 0px 5.54px 11.08px rgba(89, 104, 118, 0.05);
+    border-radius: 22px;
+}
+
+.middleDiv {
+    box-shadow: 5.54px 38.8px 110.8px rgba(89, 104, 118, 0.15) !important;
+    border-radius: 22px;
+    transform: scale(1.05);
+}
+
+.bg-imagee {
+    background-image: url('/assets/newsletter/bgFile.webp');
+    background-size: cover;
+    border-radius: 20px;
+}
