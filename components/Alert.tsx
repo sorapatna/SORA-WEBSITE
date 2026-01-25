@@ -8,7 +8,7 @@ export default function Alert  ()  {
       )}
     >
         <>
-            <strong>We are available on 145.00 MHZ(Simplex) as well as on Talk Group-27304 (Digital Mode).</strong>{' '}
+            <strong>We are available on 145.100 MHZ(Simplex) as well as on Talk Group-27304 (Digital Mode).</strong>{' '}
             <a
                 href={`https://wa.me/+918578003221`}
                 target="_blank" rel="noopener noreferrer"
@@ -20,3 +20,4 @@ export default function Alert  ()  {
     </div>
   )
 }
+
