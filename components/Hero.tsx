@@ -25,7 +25,8 @@ const Hero = () => {
               <p className="regular-16 text-black">Our Call Sign & Location</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
-            <p className="bold-20 text-black">VU2BHC :  Patna, Bihar (IN)</p>
+            <p className="bold-20 text-black">VU2BHC</p>
+            <p className="bold-20 text-black">Patna, Bihar (IN)</p>
           </div>
 
           <div className="flex flex-col">
@@ -43,6 +44,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
