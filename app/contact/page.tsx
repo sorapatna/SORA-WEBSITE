@@ -45,7 +45,7 @@ export default function Contact() {
         <p className="flex text-xl md:text-2xl lg:text-4xl text-black font-bold ">Our Location on Map</p>
       </div>
       <div className="flex mt-5">
-        <iframe width="100%" height="600" loading="lazy" allowFullScreen src="https://maps.google.com/maps?q=Ganga%20Palace%2C%20Grands%20Pallavi&t=&z=17&ie=UTF8&iwloc=&output=embed"> </iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.478908723331!2d85.14915687456576!3d25.62222631435593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed59cb88e11ab7%3A0x5a6e9d21a4107bbc!2sGanga%20Palace%2C%20Grands%20Pallavi%20Campus!5e0!3m2!1sen!2sin!4v1769514921853!5m2!1sen!2sin" width="100%" height="500" loading="lazy"></iframe>
       </div>
       <div className=" flex-row md:flex w-full content-center m-auto bg-grey-light p-10 gap-10">
         <div className="flex flex-col sm:w-1/2 w-full">
@@ -68,6 +68,7 @@ export default function Contact() {
     </>
   );
 }
+
 
 
 
