@@ -37,7 +37,7 @@ const About = () => {
 				</div>
 				<div className=' sm:mt-0  sm:w-2/3 w-full mt-6 ml-0 p-10'>
 					<h2 className='pb-20 text-2xl md:text-4xl text-bold text-center justify-center'> {aboutMeData.title}</h2>
-					<p className='text-lg text-simple text-justify '><strong>Society Of Radio Amateurs “in short SORA", having CALL SIGN VU2BHC, is an Amateur Radio Society in Patna (Bihar, India) who has consistently demonstrated its commitment to advancing technical knowledge, fostering international goodwill, and supporting public service communication from very beginning. Beyond the technical aspects, the society plays a vital role in community resilience. Its members are often the first to provide reliable communication during emergencies, ensuring that critical information reaches those who need it most. The organization’s emphasis on innovation, education, and service reflects the highest standards of professionalism. A lot of persons have benefited from structured training programs, expert mentorship, and access to a vibrant network of radio operators, who share a dedication to excellence, from our Society.</strong></p>
+					<p className='text-lg text-simple text-justify '><strong>Society Of Radio Amateurs “in short SORA", having CALL SIGN VU2BHC and Grid-Location NL25no, is an Amateur Radio Society in Patna (Bihar, India) who has consistently demonstrated its commitment to advancing technical knowledge, fostering international goodwill, and supporting public service communication from very beginning. Beyond the technical aspects, the society plays a vital role in community resilience. Its members are often the first to provide reliable communication during emergencies, ensuring that critical information reaches those who need it most. The organization’s emphasis on innovation, education, and service reflects the highest standards of professionalism. A lot of persons have benefited from structured training programs, expert mentorship, and access to a vibrant network of radio operators, who share a dedication to excellence, from our Society.</strong></p>
 				</div>
 			</section>
 
@@ -88,6 +88,7 @@ const About = () => {
 };
 
 export default About;
+
 
 
 
