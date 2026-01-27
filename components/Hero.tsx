@@ -22,11 +22,11 @@ const Hero = () => {
         <div className="relative z-20 flex w-[320px] flex-col gap-4 rounded-3xl bg-yellow-400 px-4 py-4">
           <div className="flex flex-col">
             <div className="flexBetween">
-              <p className="regular-16 text-black">Our Call Sign & Location</p>
+              <p className="regular-16 text-black">Our Call Sign & Grid-Location</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
             <p className="bold-20 text-black">VU2BHC</p>
-            <p className="bold-20 text-black">Patna, Bihar (IN)</p>
+            <p className="bold-20 text-black">NL25no</p>
           </div>
 
           <div className="flex flex-col">
@@ -44,6 +44,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
