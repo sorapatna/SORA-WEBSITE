@@ -32,7 +32,8 @@ export default function Contact() {
           </div>
           <div className="mt-5 md:mt-0 text-center" >
             <h2 className="text-xl font-bold text-black">LOCATION</h2>
-            <p className="text-md md:text-lg font-semibold text-red">Patna, Bihar(IN)</p>
+            <p className="text-md md:text-lg font-bold text-red-400">NL25no</p>
+            <p className="text-md md:text-lg font-semibold text-black">Patna, Bihar(IN)</p>
           </div>
           <div className="mb-5 mt-5 md:mt-0 text-center" >
             <h2 className="text-xl font-bold text-black">Contact</h2>
@@ -68,6 +69,7 @@ export default function Contact() {
     </>
   );
 }
+
 
 
 
