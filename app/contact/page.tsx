@@ -27,18 +27,18 @@ export default function Contact() {
 
           <div className="mt-5 md:mt-0 text-center" >
             <h2 className="text-xl font-bold text-black">Open Hours</h2>
-            <p className="text-md md:text-lg font-semibold text-red">Mon-Sat: 10.00 AM - 08.00 PM</p>
-            <p className="text-md md:text-lg font-semibold text-red">Sun: 10.00 AM - 04.00 PM</p>
+            <p className="text-md md:text-lg font-semibold text-black">Mon-Sat: 10.00 AM - 08.00 PM</p>
+            <p className="text-md md:text-lg font-semibold text-black">Sun: 10.00 AM - 04.00 PM</p>
           </div>
           <div className="mt-5 md:mt-0 text-center" >
-            <h2 className="text-xl font-bold text-black">LOCATION</h2>
-            <p className="text-md md:text-lg font-bold text-red-400">NL25no</p>
+            <h2 className="text-xl font-bold text-red-500">LOCATION</h2>
+            <p className="text-md md:text-lg font-bold text-red-black">NL25no</p>
             <p className="text-md md:text-lg font-semibold text-black">Patna, Bihar(IN)</p>
           </div>
           <div className="mb-5 mt-5 md:mt-0 text-center" >
             <h2 className="text-xl font-bold text-black">Contact</h2>
-            <p className="text-md md:text-lg font-semibold text-red">Email: sorapatna@gmail.com</p>
-            <p className="text-md md:text-lg font-semibold text-red">Tel: +91-8578003221</p>
+            <p className="text-md md:text-lg font-semibold text-black">Email: sorapatna@gmail.com</p>
+            <p className="text-md md:text-lg font-semibold text-black">Tel: +91-8578003221</p>
           </div>
         </div>
       </div>
@@ -69,6 +69,7 @@ export default function Contact() {
     </>
   );
 }
+
 
 
 
