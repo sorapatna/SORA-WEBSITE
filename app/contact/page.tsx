@@ -31,8 +31,8 @@ export default function Contact() {
             <p className="text-md md:text-lg font-semibold text-black">Sun: 10.00 AM - 04.00 PM</p>
           </div>
           <div className="mt-5 md:mt-0 text-center" >
-            <h2 className="text-xl font-bold text-red-500">LOCATION</h2>
-            <p className="text-md md:text-lg font-bold text-red-black">NL25no</p>
+            <h2 className="text-xl font-bold text-black">LOCATION</h2>
+            <p className="text-md md:text-lg font-semibold text-red-black">NL25no</p>
             <p className="text-md md:text-lg font-semibold text-black">Patna, Bihar(IN)</p>
           </div>
           <div className="mb-5 mt-5 md:mt-0 text-center" >
@@ -69,6 +69,7 @@ export default function Contact() {
     </>
   );
 }
+
 
 
 
