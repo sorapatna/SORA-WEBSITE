@@ -1,4 +1,5 @@
 import Features from "@/components/Features";
+import CalendarComponent from "@/components/CalendarComponent";
 import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
 import Faq from "@/components/Faq";
@@ -23,6 +24,7 @@ export default function Home() {
       <Hero />
       <Guide />
       <Features />
+     <CalendarComponent />
       <YouTubeFrame />
       <Mentor />
       <Latest />
