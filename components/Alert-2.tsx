@@ -9,17 +9,12 @@ export default function EVENTALERT  ()  {
     >
         <>
             <strong>NEW EVENT IN MARCH 2026.</strong>{' '}
-            <a
-                href={`https://wa.me/+918578003221`}
-                target="_blank" rel="noopener noreferrer"
-                className="underline text-red-700 hover:text-success duration-200 transition-colors"
-            >
-                Look Event Calendar below For more details
-            </a>
+
         </>
     </div>
   )
 }
+
 
 
 
