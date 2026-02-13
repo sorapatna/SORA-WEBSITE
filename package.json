@@ -30,7 +30,7 @@
     "classnames": "^2.5.1",
     "date-fns": "^4.1.0",
     "dotenv": "^17.2.3",
-    "framer-motion": "^12.33.0",
+    "framer-motion": "^12.34.0",
     "gray-matter": "^4.0.3",
     "markdown-to-jsx": "^9.7.3",
     "next": "^16.1.6",
