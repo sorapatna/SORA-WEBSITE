@@ -1,6 +1,6 @@
 import cn from 'classnames'
 
-export default function Alert-2  ()  {
+export default function EVENTALERT  ()  {
 
   return (
     <div
@@ -20,4 +20,5 @@ export default function Alert-2  ()  {
     </div>
   )
 }
+
 
