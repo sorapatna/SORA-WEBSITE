@@ -8,7 +8,7 @@ export default function EVENTALERT  ()  {
       )}
     >
         <>
-            <strong>NEW EVENT IN MARCH @)@^.</strong>{' '}
+            <strong>NEW EVENT IN MARCH 2026.</strong>{' '}
             <a
                 href={`https://wa.me/+918578003221`}
                 target="_blank" rel="noopener noreferrer"
@@ -20,5 +20,6 @@ export default function EVENTALERT  ()  {
     </div>
   )
 }
+
 
 
