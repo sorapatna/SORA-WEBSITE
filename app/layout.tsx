@@ -8,7 +8,7 @@ import { Suspense } from 'react';
 import Alert from '@/components/Alert';
 import { Inter } from 'next/font/google';
 import PageTransition from "@/components/PageTransition";
-import Alert-2 from '@/components/Alert-2';
+import EVENTALERT from '@/components/Alert-2';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -79,7 +79,7 @@ export default function RootLayout({
         
         <SiteHeader />
         <Alert />
-        <Alert-2 />
+        <EVENTALERT />
         {/* 3. Main wrapper */}
         <main className="relative overflow-hidden">
           <PageTransition>{children}</PageTransition>
