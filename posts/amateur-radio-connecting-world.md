@@ -24,13 +24,13 @@ date: "2026-02-18"
 
 ### **Looking toward 2026 and the years ahead, the hobby is integrating with the Internet of Things (IoT) and space-based communication. Amateur satellites and contacts with the International Space Station are now standard pursuits.**
 
-### **Artificial Intelligence (AI) is the next frontier, with potential applications in:
+### **Artificial Intelligence (AI) is the next frontier, with potential applications in:**
 
-###      **Signal Enhancement: Using AI to filter noise and improve voice clarity.
-###      **Antenna Design: Optimizing RF circuits and antenna patterns through machine learning.
-###      **Automation: Smart stations that can automatically adjust frequencies based on solar weather and propagation models.
+###      **Signal Enhancement: Using AI to filter noise and improve voice clarity.**
+###      **Antenna Design: Optimizing RF circuits and antenna patterns through machine learning.**
+###      **Automation: Smart stations that can automatically adjust frequencies based on solar weather and propagation models.**
 
-### **As it enters its next century, amateur radio continues to thrive—not as a relic of the past, but as a vibrant space for STEM education and resilient global connection.
+### **As it enters its next century, amateur radio continues to thrive—not as a relic of the past, but as a vibrant space for STEM education and resilient global connection.**
 
 
 
