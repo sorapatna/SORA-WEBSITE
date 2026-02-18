@@ -58,27 +58,27 @@ const Navbar = () => {
       <div className="hidden h-full gap-12 lg:flex">
         <ul className="regular-14 flex gap-4 text-black">
           <li>
-            <Link href="https://www.facebook.com/KAULBHASKAR" target="_blank" rel="noopener noreferrer">
+            <Link href="/" target="_blank" rel="noopener noreferrer">
               <Image src="/facebook.svg" alt="Facebook" width={24} height={24} />
             </Link>
           </li>
           <li>
-            <Link href="https://twitter.com/KAULMARGA" target="_blank" rel="noopener noreferrer">
+            <Link href="/" target="_blank" rel="noopener noreferrer">
               <Image src="/twitter.svg" alt="Twitter" width={24} height={24} />
             </Link>
           </li>
           <li>
-            <Link href="https://www.youtube.com/@kaulbhaskar/videos" target="_blank" rel="noopener noreferrer">
+            <Link href="/" target="_blank" rel="noopener noreferrer">
               <Image src="/youtube.webp" alt="YouTube" width={24} height={24} />
             </Link>
           </li>
           <li>
-            <Link href="https://www.linkedin.com/in/kaul-bhaskar-006a12234/" target="_blank" rel="noopener noreferrer">
+            <Link href="/" target="_blank" rel="noopener noreferrer">
               <Image src="/Linkedin.svg" alt="LinkedIn" width={24} height={24} />
             </Link>
           </li>
           <li>
-            <Link href="https://t.me/Tantrasadhana" target="_blank" rel="noopener noreferrer">
+            <Link href="/" target="_blank" rel="noopener noreferrer">
               <Image src="/telegram.svg" alt="Telegram" width={24} height={24} />
             </Link>
           </li>
