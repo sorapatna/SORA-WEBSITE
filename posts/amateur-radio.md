@@ -1,7 +1,7 @@
 ---
 title: “Amateur radio ”
-authorName: "KAULBHASKAR GURU JI"
-authorBio: "A SRIVIDYA UPASKA"
+authorName: "OM SATYENDRA"
+authorBio: "VU2XSB"
 authorAvatar: "/KAULBHASKAR.jpg"
 excerpt: "Amateur radio - the original social network across the airwaves."
 date: "2026-02-18"
