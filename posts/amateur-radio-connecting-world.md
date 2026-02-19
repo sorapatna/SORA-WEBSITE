@@ -1,5 +1,5 @@
 ---
-title: “Amateur Radio - A Century of Connecting the World ”
+title: Amateur Radio - A Century of Connecting the World 
 authorName: "OM SATYENDRA"
 authorBio: "VU2XSB"
 authorAvatar: "/KAULBHASKAR.jpg"
