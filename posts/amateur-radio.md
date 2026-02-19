@@ -1,5 +1,5 @@
 ---
-title: “Amateur radio ”
+title: Amateur radio 
 authorName: "OM SATYENDRA"
 authorBio: "VU2XSB"
 authorAvatar: "/KAULBHASKAR.jpg"
