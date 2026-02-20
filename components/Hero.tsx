@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section className="relative w-screen h-screen flex flex-col gap-20 py-5 md:gap-28 lg:py-10 lg:flex-row mb-10">
+    <section className="relative w-screen h-screen flex flex-col gap-20 py-5 md:gap-28 lg:py-10 lg:flex-row ">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -44,5 +44,6 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
