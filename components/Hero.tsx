@@ -6,9 +6,9 @@ const Hero = () => {
     <section className="max-container padding-container flex flex-col gap-20 py-5 md:gap-28 lg:py-10 lg:flex-row mb-40">
       <div className="flexCenter max-container absolute object-cover" >
         <Image
-          src='/images/EVENT1.jpg'
+          src='/images/SORA.webp'
           alt='yoga'  
-          width={580}
+          width={1440}
           height={580}
           priority
           className="w-screen h-screen object-cover object-center 2xl:rounded-s-xl"
@@ -18,7 +18,7 @@ const Hero = () => {
       
       </div>
 
-      <div className="relative  flex flex-1 items-start mr-10 mb-60">
+      <div className="relative  flex flex-1 items-start mb-60">
         <div className="relative z-20 flex w-[320px] flex-col gap-4 rounded-3xl bg-yellow-400 px-4 py-4">
           <div className="flex flex-col">
             <div className="flexBetween">
@@ -44,6 +44,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
