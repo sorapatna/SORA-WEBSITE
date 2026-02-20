@@ -15,7 +15,10 @@ const Hero = () => {
       </div>
 
       {/* Left Content */}
-
+      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 px-5 md:px-10">
+        {/* Add your text/content here */}
+        
+      </div>
 
       {/* Right Content */}
       <div className="relative z-20 flex flex-1 items-start mt-10 md:mt-0 mb-10 md:mb-20 px-5 md:px-0">
@@ -42,6 +45,7 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
 
