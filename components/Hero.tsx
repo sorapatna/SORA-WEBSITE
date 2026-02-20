@@ -8,7 +8,7 @@ const Hero = () => {
         <Image
           src='/images/EVENT1.jpg'
           alt='yoga'  
-          width={1440}
+          width={580}
           height={580}
           priority
           className="w-screen h-screen object-cover object-center 2xl:rounded-s-xl"
@@ -44,6 +44,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
