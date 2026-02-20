@@ -2,14 +2,13 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section className="relative w-screen h-screen flex flex-col gap-20 py-5 md:gap-28 lg:py-10 lg:flex-row mb-40">
+    <section className="relative w-screen h-screen flex flex-col gap-20 py-5 md:gap-28 lg:py-10 lg:flex-row mb-10">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
           src="/images/EVENT.webp"
           alt="yoga"
-          width={1440}
-          height={580}
+          fill
           priority
           className="object-cover object-center"
         />
@@ -45,4 +44,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
