@@ -6,7 +6,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/EVENT.webp"
+          src="/images/EVENT-2.webp"
           alt="yoga"
           fill
           priority
@@ -44,6 +44,7 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
 
