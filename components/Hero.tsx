@@ -17,12 +17,7 @@ const Hero = () => {
       {/* Left Content */}
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 px-5 md:px-10">
         {/* Add your text/content here */}
-        <h1 className="text-3xl md:text-5xl font-bold text-white drop-shadow-lg">
-          Welcome to SORA
-        </h1>
-        <p className="mt-4 text-lg md:text-xl text-white max-w-[90%] md:max-w-full">
-          Experience yoga, mindfulness, and connection wherever you are.
-        </p>
+        
       </div>
 
       {/* Right Content */}
@@ -50,3 +45,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
