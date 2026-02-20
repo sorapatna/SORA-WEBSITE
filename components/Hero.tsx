@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="relative w-screen min-h-screen flex flex-col gap-10 py-5 md:gap-20 lg:py-10 lg:flex-row mb-2">
       {/* Background Image */}
-      <div className="flexCenter max-container absolute">
+      <div className="absolute inset-0 -z-10">
         <Image
           src="/images/SORA.webp"
           alt="yoga"
@@ -45,6 +45,7 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
 
