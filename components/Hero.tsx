@@ -8,7 +8,8 @@ const Hero = () => {
         <Image
           src="/images/EVENT.webp"
           alt="yoga"
-          fill
+          width={1440}
+          height={580}
           priority
           className="object-cover object-center"
         />
@@ -44,3 +45,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
