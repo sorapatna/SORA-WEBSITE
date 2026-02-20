@@ -4,13 +4,13 @@ const Hero = () => {
   return (
     <section className="relative w-screen h-screen flex flex-col gap-20 py-5 md:gap-28 lg:py-10 lg:flex-row mb-2 ">
       {/* Background Image */}
-      <div className="absolute inset-0 w-full h-full">
+      <div className="absolute inset-0 w-screen h-screen">
         <Image
           src="/images/EVENT-2.webp"
           alt="yoga"
           fill
           priority
-          className="object-contain object-center"
+          className="object-cover object-center"
         />
       </div>
 
@@ -44,6 +44,7 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
 
