@@ -10,7 +10,7 @@ const Hero = () => {
           alt="yoga"
           fill
           priority
-          className="object-cover object-center"
+          className="object-contain object-center"
         />
       </div>
 
@@ -44,6 +44,7 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
 
