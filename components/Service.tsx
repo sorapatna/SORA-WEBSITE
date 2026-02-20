@@ -4,7 +4,7 @@ const Services = () => {
             <div id="courses">
 			    <div className=" relative flex  flexCenter w-full mt-10" >
       			    <video loop muted autoPlay playsInline className='relative flex h-screen w-screen object-cover'>
-      			        <source src="/service3.mp4"  />
+      			        <source src="/service3a.mp4"  />
       			    </video>
                     <h1 className="absolute text-4xl text-center text-red-400 justify-center font-bold mb-80 pageHeader">Services</h1>     		
                     <h2 className="absolute text-2xl text-center text-indigo-500 justify-center font-semibold mb-40 pageHeader">An accessible platform for individuals to learn about Amateur Radio.</h2>
@@ -19,6 +19,7 @@ const Services = () => {
         );
 }
 export default Services;
+
 
 
 
