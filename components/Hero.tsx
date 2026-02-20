@@ -18,7 +18,7 @@ const Hero = () => {
       
       </div>
 
-      <div className="relative  flex flex-1 items-start mb-60">
+      <div className="relative  flex flex-1 items-start mr-10 mb-60">
         <div className="relative z-20 flex w-[320px] flex-col gap-4 rounded-3xl bg-yellow-400 px-4 py-4">
           <div className="flex flex-col">
             <div className="flexBetween">
@@ -44,6 +44,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
