@@ -1,5 +1,6 @@
 import fs from "fs";
-import Markdown from "markdown-to-jsx";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import matter from "gray-matter";
 import getPostMetadata from "@/components/getPostMetadata";
 import Image from "next/image";
@@ -32,7 +33,7 @@ const post = await getPostContent(slug)
       </div>
 
       <article className="lg:regular-20 ml-20 ">
-        <Markdown>{post.content}</Markdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>
       </article>
 
         <div className="flex items-center gap-4 bg-yellow-300 rounded-lg border p-6 mt-16">
