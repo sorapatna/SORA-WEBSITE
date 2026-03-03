@@ -172,7 +172,7 @@ li {
 
 /* Fix for Markdown Images */
 article img, .markdown-content img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     display: block;
     margin: 0 auto; /* Centers the image */
