@@ -13,7 +13,7 @@ date: "2024-01-02 "
 ## **Communicating with Other Hams(Contact Basics: Good Amateur Practices)**
 
 **------------------------------------------------------------------------------------**
-### <u>**ITU-Phonetic Alphabet**</u>
+### **ITU-Phonetic Alphabet**
 
 
 
