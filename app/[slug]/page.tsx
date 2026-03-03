@@ -32,7 +32,7 @@ const post = await getPostContent(slug)
         <p className="text-red-500 mt-2">{post.data.date}</p>
       </div>
 
-      <article className="lg:regular-20 ml-20 ">
+      <article className="lg:regular-20 mx-auto max-w-4xl px-6 ">
         <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>
       </article>
 
