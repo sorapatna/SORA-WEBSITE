@@ -32,23 +32,9 @@ const post = await getPostContent(slug)
         <p className="text-red-500 mt-2">{post.data.date}</p>
       </div>
 
-      <article className="lg:regular-20 mx-auto max-w-4xl px-6 prose prose-slate">
-  <ReactMarkdown 
-    remarkPlugins={[remarkGfm]}
-    components={{
-      // Custom renderer for images to make them responsive and centered
-      img: ({ node, ...props }) => (
-        <img 
-          {...props} 
-          className="mx-auto block h-auto max-w-full rounded-lg" 
-          alt={props.alt || ""} 
-        />
-      ),
-    }}
-  >
-    {post.content}
-  </ReactMarkdown>
-</article>
+      <article className="lg:regular-20 mx-auto max-w-4xl px-6">
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>
+      </article>
 
         <div className="flex items-center gap-4 bg-yellow-300 rounded-lg border p-6 mt-16">
           {post.data.authorAvatar && (
