@@ -170,6 +170,20 @@ li {
     .smallImage { width: 15px; }
 }
 
+/* Fix for Markdown Images */
+article img, .markdown-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+
+/* Ensure the container doesn't overflow */
+.markdown-container {
+    overflow: hidden;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 
 .shadow-courses { box-shadow: 0px 40px 20px rgba(0, 0, 0, 0.15); }
