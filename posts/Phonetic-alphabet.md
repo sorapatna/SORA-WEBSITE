@@ -17,7 +17,7 @@ date: "2024-01-02 "
 
 
 
-<u>**Letter**</u> _______  <u>**Word Pronunciation**</u>                                                                                                                    
+**Letter** _______   **Word Pronunciation**                                                                                                                    
                                                     
 
 **A**---------------AL FAH 
