@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   category: 'education', // Changed from 'technology' to match content
 
   verification: {
-    google: 'your-actual-google-code',
+    google: 'VSGWHeh1Ke4f0sBYth_DiILrlp2rrE-TGfziVMUdly4',
     yandex: 'yandex-code',
   },
 
