@@ -8,12 +8,13 @@ export default function EVENTALERT  ()  {
       )}
     >
         <>
-            <strong>Field Day on Floatng Cruise in mid Ganges IN MARCH 2026.</strong>{' '}
+            <strong>Field Day on Floating Cruise in mid Ganges IN MARCH 2026.</strong>{' '}
 
         </>
     </div>
   )
 }
+
 
 
 
