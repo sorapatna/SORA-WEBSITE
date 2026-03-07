@@ -21,7 +21,7 @@ const localizer = dateFnsLocalizer({
 const events = [
   {
     title: "Field day",
-    start: new Date(2026, 2, 21, 10, 0),
+    start: new Date(2026, 2, 21, 08, 0),
     end: new Date(2026, 2, 22, 16, 0),
   },
 ];
@@ -51,5 +51,6 @@ export default function CalendarComponent() {
     </div>
   );
 }
+
 
 
