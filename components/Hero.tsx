@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section className="relative w-screen min-h-screen flex flex-col gap-10 py-5 md:gap-20 lg:py-10 lg:flex-row mb-2">
+    <section className="relative w-full overflow-hidden min-h-screen flex flex-col gap-10 py-5 md:gap-20 lg:py-10 lg:flex-row mb-2">
       {/* Background Image */}
       <div className="absolute inset-0 -z-10">
         <Image
@@ -10,6 +10,7 @@ const Hero = () => {
           alt="yoga"
           fill
           priority
+          sizes="100vw"
           className="object-cover object-center"
         />
       </div>
@@ -45,6 +46,7 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
 
