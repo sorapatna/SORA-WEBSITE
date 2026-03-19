@@ -32,7 +32,7 @@
     "dotenv": "^17.3.1",
     "framer-motion": "^12.36.0",
     "gray-matter": "^4.0.3",
-    "next": "^16.1.6",
+    "next": "^16.2.0",
     "nodemailer": "^8.0.2",
     "react": "^19.2.3",
     "react-big-calendar": "^1.19.4",
