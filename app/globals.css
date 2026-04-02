@@ -14,6 +14,36 @@ body {
 }
 }
 
+/* --- React Big Calendar Accessibility Fixes --- */
+/* Target the off-range background and the button link specifically */
+.rbc-month-view .rbc-off-range-bg {
+  background-color: #f4f4f4 !important; 
+}
+.rbc-month-view .rbc-off-range .rbc-button-link {
+  color: #444444 !important; 
+  opacity: 1; /* RBC sometimes lowers opacity; reset it for contrast */
+}
+
+.rbc-month-view .rbc-date-cell .rbc-button-link {
+  color: #1a1a1a !important; 
+  font-weight: 500;
+}
+
+.rbc-show-more {
+  color: #004a87 !important; /* Deeper blue for better contrast */
+  background: none !important;
+  text-decoration: underline;
+}
+
+.rbc-today {
+  background-color: #e6f7ff !important; 
+}
+.rbc-today .rbc-button-link {
+  color: #003a8c !important;
+  font-weight: bold;
+}
+
+/* ---------------------------------------------- */
 li {
     padding: 0.5rem;
 }
