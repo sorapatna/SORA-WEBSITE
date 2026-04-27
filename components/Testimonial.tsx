@@ -7,33 +7,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // Testimonial Data
-const postData: DataType[] = [
-    {
-        name: "MURARI SINHA",
-        profession: 'B.S.E.B.',
-        comment: 'For me, HAM radio isn’t just about technology—it’s about humanity. It’s about the thrill of making that first contact, the pride of building something with your own hands, and the warmth of knowing you’re part of a global network of people who care. S.O.R.A. has been my doorway to adventure, learning, and lifelong friendships, and I’m grateful every day to be part of it.',
-    },
-    {
-        name: "MAYANK",
-        profession: 'N.M.C.H.',
-        comment: 'Some of my most cherished memories are sitting late at night, tuning into voices from halfway across the world, and realizing that a simple signal could bridge cultures and continents. S.O.R.A. has given me mentors who patiently guided me, friends who cheer me on, and opportunities to serve my community during emergencies when communication really matters.',
-    },
-    {
-        name: "KUNJ BIHARI",
-        profession: 'COREOGRAPHER',
-        comment: 'When I first picked up a radio, I never imagined it would change my life the way it has. Through the Amateur Radio Society, I’ve discovered not just a fascinating hobby, but a family of people who share the same curiosity and passion for connecting across the airwaves.',
-    },
-    {
-        name: "JAIPAL ARYA",
-        profession: 'SOCIAL SERVICE',
-        comment: 'Joining the S.O.R.A. has been one of the most rewarding experiences of my life. What started as a curiosity about radios quickly grew into a passion for communication, technology, and community service. The society not only nurtured my technical skills—teaching me everything from antenna building to emergency communication protocols but also gave me a sense of belonging among like‑minded enthusiasts.',
-    },
-    {
-        name: "Dr. Rupinder Singh",
-        profession: 'Doctor',
-        comment: 'S.O.R.A’s mentorship, workshops, and camaraderie have been invaluable. Through HAM radio, I’ve connected with people across continents, participated in disaster relief efforts, and discovered the joy of lifelong learning.  It’s more than just a hobby. It’s a gateway to global friendships, technical innovation, and public service. I’m proud to be part of a community that proves the power of radio waves can unite people, foster resilience, and inspire curiosity in every generation.',
-    },
-]
+const postData = [
+  { name: "J. Kartikeyan", profession: "Entrepreneur", comment: "I am a huge fan of GURU Ji. I have found whole team to be incredibly intuitive overall. Would definitely recommend this website if you are looking for a source of learning tantra that bit easier.", },
+  { name: "N. Ramaswami", profession: "MD, Tech Infra", comment: "This website has been pivotal for helping me on tantra rituals. I would definitely recommend this website if you would like to performing any tantra rituals.", },
+  { name: "C. Mathew", profession: "Bureaucrat", comment: "I absolutely love the services provided by KAULBHASKAR Guru Ji and his team members. It really helped streamline my workflows. I would definitely recommend.", },
+  { name: "Maheshwer Kumar", profession: "Lawyer", comment: "I am utterly grateful that KAULBHASKAR Ji imparts the high teaching of tantra, specially of hidden KAUL MARGA. He gives personal attention to each knowledge seekers. My life has been changed since I have been learning from him.", },
+  { name: "Dr. Rupinder Singh", profession: "Doctor", comment: "I have always wanted to learn authentic SRI VIDYA but unfortunately, it is extremely difficult to find genuine practitioner. Thanks to the Goddess that my desire finally found its fulfillment in KAULBHASKAR GURU Ji. His command over the intricacies is unparalleled.", },
+];
 
 const Testimonials: React.FC = () => {
   const [slidesToShow, setSlidesToShow] = useState(3);
@@ -57,7 +37,7 @@ const Testimonials: React.FC = () => {
     <div className="bg-linear-to-r from-green-400 via-blue-500 to-purple-600 pt-20 pb-10 sm:py-32" id="testimonial">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <h2 className="text-4xl md:text-6xl text-black text-center md:text-start font-semibold mb-10">
-          What Others Say <br className="hidden md:block" /> About Us?
+          What Our Lovely <br className="hidden md:block" /> Client Says?
         </h2>
         <Slider {...settings} key={slidesToShow}>
           {postData.map((item, i) => (
