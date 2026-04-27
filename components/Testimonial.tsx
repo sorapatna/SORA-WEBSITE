@@ -1,11 +1,17 @@
-"use client";
+"use client"
 
-import React, { useState, useEffect } from "react";
+import React, { Component } from "react";
 import { StarIcon } from '@heroicons/react/24/solid';
 import Slider from "react-slick";
 
+// CAROUSEL DATA
 
-// Testimonial Data
+interface DataType {
+    profession: string;
+    comment: string;
+    name: string;
+}
+
 const postData: DataType[] = [
     {
         name: "MURARI SINHA",
@@ -34,54 +40,84 @@ const postData: DataType[] = [
     },
 ]
 
-const Testimonials: React.FC = () => {
-  const [slidesToShow, setSlidesToShow] = useState(3);
+// CAROUSEL SETTINGS
 
-  useEffect(() => {
-    const handleResize = () => {
-      const width = window.innerWidth;
-      setSlidesToShow(width >= 1200 ? 3 : width >= 800 ? 2 : 1);
+
+export default class MultipleItems extends Component {
+  render() {
+    const settings = {
+      dots: false,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: false,
+      autoplay: true,
+      speed: 500,
+      autoplaySpeed: 5000,
+      cssEase: "linear",
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: { slidesToShow: 3, slidesToScroll: 1 },
+        },
+        {
+          breakpoint: 800,
+          settings: { slidesToShow: 2, slidesToScroll: 1 },
+        },
+        {
+          breakpoint: 600,
+          settings: { slidesToShow: 1, slidesToScroll: 1 },
+        },
+      ],
     };
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
-  const settings = {
-    dots: false, infinite: true, slidesToShow, slidesToScroll: 1,
-    arrows: false, autoplay: true, speed: 500, cssEase: "linear",
-  };
-
-  return (
-    <div className="bg-linear-to-r from-green-400 via-blue-500 to-purple-600 pt-20 pb-10 sm:py-32" id="testimonial">
-      <div className="mx-auto max-w-7xl px-4 lg:px-8">
-        <h2 className="text-4xl md:text-6xl text-black text-center md:text-start font-semibold mb-10">
-          What Others Say <br className="hidden md:block" /> About Us?
-        </h2>
-        <Slider {...settings} key={slidesToShow}>
-          {postData.map((item, i) => (
-            <div key={i} className="p-2">
-              <div className="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transition-transform min-h-[300px] flex flex-col justify-between">
-                <p className="text-base text-justify text-black mb-4 italic">"{item.comment}"</p>
-                <div>
-                  <hr className="mb-4" />
-                  <div className="flex justify-between items-end">
+    return (
+      <div
+        className="bg-linear-to-r from-green-400 via-blue-500 to-purple-600 pt-40 pb-10 sm:pb-32 lg:py-32"
+        id="testimonial"
+      >
+        <div className="mx-auto max-w-7xl sm:py-4 lg:px-8">
+          <h2 className="leading-20.5 text-6xl text-black md:text-5xl text-center md:text-start font-semibold">
+            What Others Say <br /> About Us ?
+          </h2>
+          <Slider {...settings}>
+            {postData.map((items, i) => (
+              <div key={i}>
+                <div
+                  className={`bg-white m-4 p-5 my-40 overflow-hidden rounded-lg shadow-lg transition-transform duration-300 hover:scale-110 hover:shadow-2xl relative ${
+                    i % 2 ? "middleDiv" : "testimonial-shadow"
+                  }`}
+                >
+                  <h3 className="text-base text-justify font-normal text-black my-4">
+                    {items.comment}
+                  </h3>
+                  <hr className="border-gray-300" />
+                  <div className="flex justify-between">
                     <div>
-                      <h3 className="text-lg font-bold text-slate-800">{item.name}</h3>
-                      <p className="text-sm text-gray-600">{item.profession}</p>
+                      <h4 className="text-lg font-medium text-shadow-slate-400 pt-4 pb-2">
+                        {items.name}
+                      </h4>
+                      <h4 className="text-sm font-normal text-black pb-2">
+                        {items.profession}
+                      </h4>
                     </div>
-                    <div className="flex text-amber-500">
-                      {[...Array(5)].map((_, j) => <StarIcon key={j} className="w-4 h-4" />)}
+                    <div className="flex">
+                      <StarIcon className="w-5 h-5 text-orange-300" />
+                      <StarIcon className="w-5 h-5 text-orange-300" />
+                      <StarIcon className="w-5 h-5 text-orange-300" />
+                      <StarIcon className="w-5 h-5 text-orange-300" />
+                      <StarIcon className="w-5 h-5 text-amber-500" />
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </Slider>
+            ))}
+          </Slider>
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
-export default Testimonials;
+
+
