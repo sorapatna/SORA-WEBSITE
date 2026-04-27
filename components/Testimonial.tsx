@@ -3,8 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { StarIcon } from '@heroicons/react/24/solid';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 
 // Testimonial Data
 const postData: DataType[] = [
