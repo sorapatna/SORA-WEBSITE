@@ -57,7 +57,7 @@ const Testimonials: React.FC = () => {
     <div className="bg-linear-to-r from-green-400 via-blue-500 to-purple-600 pt-20 pb-10 sm:py-32" id="testimonial">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <h2 className="text-4xl md:text-6xl text-black text-center md:text-start font-semibold mb-10">
-          What Our Lovely <br className="hidden md:block" /> Client Says?
+          What Others Say <br className="hidden md:block" /> About Us?
         </h2>
         <Slider {...settings} key={slidesToShow}>
           {postData.map((item, i) => (
