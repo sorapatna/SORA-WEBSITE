@@ -14,13 +14,31 @@ interface DataType {
 }
 
 const postData: DataType[] = [
-    { profession: 'Bala Siddha Upasaka', name: 'G. Vyas', imgSrc: '/assets/mentor/khunda.webp' },
-    { profession: 'Vastu, Palm-reading Expert', name: 'Subhas Kaushik', imgSrc: '/assets/mentor/Subhas.webp' },
-    { profession: 'Astro Guru', name: 'S. Bakshi', imgSrc: '/assets/mentor/S.Bakshi.webp' },
-    { profession: 'Vajra Siddha', name: 'VAJRA YOGINI', imgSrc: '/assets/mentor/Aradhya.webp' },
-    { profession: 'Yagyan Expert', name: 'Siddharth Maharaj', imgSrc: '/assets/mentor/Siddharth.webp' },
-    { profession: 'Palmistry Researcher', name: 'KIRAN SHARMA', imgSrc: '/assets/mentor/Kiran-2.webp' },
-    { profession: 'NADI ASTROLOGER', name: 'YATAN SHARMA', imgSrc: '/assets/mentor/YATAN.webp' },
+    {
+        profession: 'Founder',
+        name: 'PRANAV SAHI VU2XH',
+        imgSrc: '/images/PRANAV.webp',
+    },
+    {
+        profession: 'PRESIDENT',
+        name: 'SUMITA SAHI VU2IO',
+        imgSrc: '/images/SUMITA SAHI.webp',
+    },
+    {
+        profession: 'VICE-PRESIDENT',
+        name: 'SANJAY GAUTAM VU3NFF',
+        imgSrc: '/images/SANJAY GAUTAM.webp',
+    },
+    {
+        profession: 'SECRETARY',
+        name: 'RAJIV RANJAN VU2VFB',
+        imgSrc: '/images/RAJIV RANJAN.webp',
+    },
+    {
+        profession: 'TREASURER',
+        name: 'DHANANJAY VU2VFA',
+        imgSrc: '/images/DHANANJAY.webp',
+    },
 ];
 
 const MultipleItems: React.FC = () => {
