@@ -77,7 +77,7 @@ const MultipleItems: React.FC = () => {
         <div className="py-10 sm:py-24 bg-linear-to-r from-pink-500 via-purple-500 to-indigo-500" id="mentor">
             <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 px-4 lg:px-8 relative'>
                 <h2 className="text-4xl md:text-6xl text-midnightblue text-center md:text-start font-semibold mb-8">
-                    Meet with our <br className="hidden md:block" /> Experts
+                    Meet with our <br className="hidden md:block" /> Executives
                 </h2>
 
                 {/* Container fix for mobile width bugs */}
