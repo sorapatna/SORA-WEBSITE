@@ -34,9 +34,9 @@ const localizer = dateFnsLocalizer({
 const events: CalendarEvent[] = [
   {
     title: "Field Day",
-    start: new Date(2026, 2, 21, 8, 0),
-    end: new Date(2026, 2, 22, 16, 0),
-    description: "Join us for our annual outdoor sports day! Activities include track events, obstacle courses, team games, and an open barbecue catering lunch for all attendees.",
+    start: new Date(2026, 7, 29, 16, 0),
+    end: new Date(2026, 7, 29, 18, 0),
+    description: "We had a review of progress on our 145.100 MHz net which we operate morning and evening. Morning 7am to 8.30am. Evening time 5pm onwards till 8pm one operator minimum is on standby. We decided that once a week all our group members will log in and talk on vhf which is mandatory…everyone agreed 👍 time and date to be communicated this includes YL members. I had bought a lot of low cost antenna designs and equipment to demonstrate to new hams who have recently been licensed but none of them turned up in the program. So the Demo was brief for hams who are already operating. We also confirmed that monthly program will be revived even if 10-12 hams are attending at a fellow hams residence or location. Next program in September will be communicated.",
     media: [
       {
         type: "image",
