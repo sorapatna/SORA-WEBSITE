@@ -33,84 +33,10 @@ const localizer = dateFnsLocalizer({
 
 const events: CalendarEvent[] = [
   {
-    title: "Monthly Meeting",
-    start: new Date(2026, 7, 29, 16, 0),
-    end: new Date(2026, 7, 29, 18, 0),
-    description: "Here is the formal Minutes of Meeting for SORA - Ready to print on letterhead:
-
----
-
-SOCIETY OF RADIO AMATEURS - SORA
-CLUB CALL SIGN: VU2BHC | GRID: NL25no
-ESTD: 1995 | Regd. with Govt. of Bihar
-Regd. Off: Ganga Palace, JC Road, West Gandhi Maidan, Patna
-
-MINUTES OF MEETING
-
-Venue: Floatafé Cruise, Patna
-Date: 31st August 2026
-Time: 11:00 AM onwards
-Chaired by: President - Ms. Sumita Sahi, VU2IO
-Meeting Type: Monthly General Body Meeting
-
-Members Present:
-1. Sumita Sahi VU2IO - President - In Chair
-2. [Secretary Name] VU2___ - Secretary
-3. [Treasurer Name] VU2___
-4. Members present: VU2*, VU2*, SWL Members (Total 14 members) - Attendance sheet attached as Annexure-A
-
-Agenda:
-
-1. Demonstration of making antenna below Rs. 100/-
-2. Regular meeting and coming on air
-3. Maintenance of Website
-
-Proceedings:
-
-The meeting was called to order by the President at 11:05 AM. The President welcomed all members present on the Floatafé Cruise and thanked them for their active participation in club activities.
-
-Agenda Item 1: Demonstration of making antenna below Rs. 100/-
-
-It was demonstrated by [Member Name] how a simple 2m VHF Slim Jim / Dipole antenna can be made using locally available materials costing less than Rs. 100. Materials used: 300-ohm TV twin lead / RG-6 cable scrap and PVC pipe.
-
-Resolved:
-a) A practical workshop to be held on 2nd Sunday of September for all members.
-b) A video and instruction sheet to be prepared and uploaded on website for new hams. Responsibility: Technical Committee.
-
-Agenda Item 2: Regular meeting and coming on air
-
-It was discussed that club should come on air more regularly to activate VU2BHC.
-
-Resolved:
-a) Regular On-Air Net every Sunday at 9:00 AM on 14.250 MHz and 145.500 MHz FM Simplex.
-b) All members to try to be present on air at least once a week.
-c) Monthly physical meeting will continue on last Sunday at Floatafé / Ganga Palace.
-
-Agenda Item 3: Maintenance of Website
-
-The website http://sora.org.in / maintenance was discussed. It was noted that updates are pending.
-
-Resolved:
-a) Secretary to coordinate with webmaster for updating members list, events and gallery.
-b) President approved annual renewal charges for domain & hosting.
-c) A blog section to be added for antenna projects and meeting minutes.
-
-Any Other Points:
-Vote of thanks proposed by Secretary to President Ms. Sumita Sahi VU2IO and to Floatafé management for venue support.
-
-Meeting adjourned at 12:30 PM with tea.
-
-For SOCIETY OF RADIO AMATEURS
-
-President
-Sumita Sahi, VU2IO
-
-Secretary
-[Signature]
-
-Place: Patna
-Date: 31.08.2026
-    We had a review of progress on our 145.100 MHz net which we operate morning and evening. Morning 7am to 8.30am. Evening time 5pm onwards till 8pm one operator minimum is on standby. We decided that once a week all our group members will log in and talk on vhf which is mandatory…everyone agreed 👍 time and date to be communicated this includes YL members. I had bought a lot of low cost antenna designs and equipment to demonstrate to new hams who have recently been licensed but none of them turned up in the program. So the Demo was brief for hams who are already operating. We also confirmed that monthly program will be revived even if 10-12 hams are attending at a fellow hams residence or location. Next program in September will be communicated. ",
+    title: "Field Day",
+    start: new Date(2026, 2, 21, 8, 0),
+    end: new Date(2026, 2, 22, 16, 0),
+    description: "Join us for our annual outdoor sports day! Activities include track events, obstacle courses, team games, and an open barbecue catering lunch for all attendees.",
     media: [
       {
         type: "image",
