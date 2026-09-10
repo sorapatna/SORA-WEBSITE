@@ -36,7 +36,7 @@ const events: CalendarEvent[] = [
     title: "Field Day",
     start: new Date(2026, 2, 21, 8, 0),
     end: new Date(2026, 2, 22, 16, 0),
-    description: "Join us for our annual outdoor sports day! Activities include track events, obstacle courses, team games, and an open barbecue catering lunch for all attendees.",
+    description: "Join us for our field day! ",
     media: [
       {
         type: "image",
