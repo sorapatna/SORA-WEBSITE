@@ -14,7 +14,7 @@ export default function Alert  ()  {
                 target="_blank" rel="noopener noreferrer"
                 className="underline text-red-700 hover:text-success duration-200 transition-colors"
             >
-              Want to participate? CLICK hereto Register
+              CLICK to Register
             </a>
         </>
     </div>
