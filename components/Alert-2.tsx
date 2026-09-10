@@ -8,13 +8,13 @@ export default function Alert  ()  {
       )}
     >
         <>
-            <Will you want to participate in HAMFEST 2026 (28-29 Nov) at NITK SURATHKAL MANGALURU.</strong>{' '}
+            <strong>We are available on 145.100 MHZ(Simplex) as well as on Talk Group-27304 (Digital).</strong>{' '}
             <a
-                href={`https://hifi2026.nitk.ac.in/`}
+                href={`https://wa.me/+918578003221`}
                 target="_blank" rel="noopener noreferrer"
                 className="underline text-red-700 hover:text-success duration-200 transition-colors"
             >
-                CLICK here to Register
+                What's App For more details
             </a>
         </>
     </div>
