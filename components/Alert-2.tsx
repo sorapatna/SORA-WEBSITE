@@ -1,6 +1,6 @@
 import cn from 'classnames'
 
-export default function EVENTALERT  ()  {
+export default function Alert  ()  {
 
   return (
     <div
@@ -8,16 +8,16 @@ export default function EVENTALERT  ()  {
       )}
     >
         <>
-            <strong>Field Day on Floatafe Cruise in mid Ganges IN MARCH 2026.</strong>{' '}
-
+            <Will you want to participate in HAMFEST 2026 (28-29 Nov) at NITK SURATHKAL MANGALURU.</strong>{' '}
+            <a
+                href={`https://hifi2026.nitk.ac.in/`}
+                target="_blank" rel="noopener noreferrer"
+                className="underline text-red-700 hover:text-success duration-200 transition-colors"
+            >
+                CLICK here to Register
+            </a>
         </>
     </div>
   )
 }
-
-
-
-
-
-
 
