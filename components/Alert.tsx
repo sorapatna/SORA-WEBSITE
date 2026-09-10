@@ -10,7 +10,7 @@ export default function Alert  ()  {
         <>
             <strong>We are available on 145.100 MHZ(Simplex) as well as on Talk Group-27304 (Digital).</strong>{' '}
             <a
-                href={`https://wa.me/+918578003221`}
+                href={`https://hifi2026.nitk.ac.in`}
                 target="_blank" rel="noopener noreferrer"
                 className="underline text-red-700 hover:text-success duration-200 transition-colors"
             >
