@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { Calendar, dateFnsLocalizer } from "react-big-calendar";
 import { format, parse, startOfWeek, getDay } from "date-fns";
 import { enUS } from "date-fns/locale";
@@ -38,27 +38,27 @@ const events: CalendarEvent[] = [
     end: new Date(2026, 7, 29, 18, 0),
     description: "We had a review of progress on our 145.100 MHz net which we operate morning and evening. Morning 7am to 8.30am. Evening time 5pm onwards till 8pm one operator minimum is on standby. We decided that once a week all our group members will log in and talk on vhf which is mandatory…everyone agreed 👍 time and date to be communicated this includes YL members. I had bought a lot of low cost antenna designs and equipment to demonstrate to new hams who have recently been licensed but none of them turned up in the program. So the Demo was brief for hams who are already operating. We also confirmed that monthly program will be revived even if 10-12 hams are attending at a fellow hams residence or location. Next program in September will be communicated.",
     media: [
-      {
-        type: "image",
-        src: "/images/Meeting-1.webp",
-      },
-      {
-        type: "image",
-        src: "/images/Meeting-2.webp",
-      },
-      {
-        type: "image",
-        src: "/images/Meeting-3.webp",
-      },
-      
+      { type: "image", src: "/images/Meeting-1.webp" },
+      { type: "image", src: "/images/Meeting-2.webp" },
+      { type: "image", src: "/images/Meeting-3.webp" },
     ],
   },
 ];
+
+// Helper function to extract the latest event date programmatically
+const getLatestEventDate = (eventList: CalendarEvent[]): Date => {
+  if (eventList.length === 0) return new Date();
+  const sorted = [...eventList].sort((a, b) => a.start.getTime() - b.start.getTime());
+  return sorted[sorted.length - 1].start;
+};
 
 export default function CalendarComponent() {
   const [isClient, setIsClient] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState<CalendarEvent | null>(null);
   const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
+
+  // Computes the latest event target date once upon initial mounting
+  const defaultCalendarDate = useMemo(() => getLatestEventDate(events), []);
 
   useEffect(() => {
     setIsClient(true);
@@ -107,7 +107,7 @@ export default function CalendarComponent() {
             events={events}
             startAccessor="start"
             endAccessor="end"
-            defaultDate={new Date(2026, 7, 29)}
+            defaultDate={defaultCalendarDate}
             showMultiDayTimes
             style={{ height: "100%" }}
             onSelectEvent={handleSelectEvent}
@@ -260,7 +260,6 @@ export default function CalendarComponent() {
                     >
                       ❯
                     </button>
-
                     {/* Bottom Slide Indicators/Dots */}
                     <div 
                       style={{
