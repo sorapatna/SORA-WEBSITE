@@ -9,6 +9,7 @@ import Newsletter from "@/components/Subscribe";
 import Latest from "@/components/LatestPost";
 import dynamic from "next/dynamic";
 import { Metadata } from 'next';
+import Alert-2 from "@/components/Alert-2";
 
 
 const YouTubeFrame = dynamic(() => import("@/components/Video"));
@@ -21,6 +22,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+     <Alert-2 />
       <Hero />
       <Guide />
       <Features />
