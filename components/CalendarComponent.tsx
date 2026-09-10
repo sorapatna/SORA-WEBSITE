@@ -40,15 +40,15 @@ const events: CalendarEvent[] = [
     media: [
       {
         type: "image",
-        src: "/images/field-day-1.jpg",
+        src: "/images/Meeting-1.webp",
       },
       {
         type: "image",
-        src: "/images/field-day-2.jpg",
+        src: "/images/Meeting-2.webp",
       },
       {
         type: "image",
-        src: "/images/field-day-3.jpg",
+        src: "/images/Meeting-3.webp",
       },
       {
         type: "video",
