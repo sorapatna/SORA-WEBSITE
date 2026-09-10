@@ -6,7 +6,7 @@ import ScrollToTop from '@/components/ScrollToTop';
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { Suspense } from 'react';
 import Alert from '@/components/Alert';
-import Alert-2 from '@/components/Alert';
+import Alert-2 from '@/components/Alert-2';
 import { Inter } from 'next/font/google';
 import PageTransition from "@/components/PageTransition";
 
