@@ -6,7 +6,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/images/FIELDDAY.webp"
+          src="/images/HERO-BG.webp"
           alt="yoga"
           fill
           priority
