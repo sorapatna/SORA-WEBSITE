@@ -2,10 +2,11 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    // FIX 1: Enforced min-h-[100svh] (Dynamic Small Viewport Height) so the layout never collapses on mobile safari/chrome
-    <section className="relative w-full overflow-hidden min-h-[100svh] md:min-h-screen flex flex-col justify-between pt-12 pb-6 md:py-10 gap-10 lg:flex-row mb-2">
-      {/* Background Image */}
-      {/* FIX 2: Switched from -z-10 to z-0. Negative z-indexes often fail to render behind layout containers on mobile devices */}
+    // Enforced min-h-[100svh] so the section matches the exact mobile viewport height without clipping
+    <section className="relative w-full overflow-hidden min-h-[100svh] md:min-h-screen flex flex-col justify-between pt-12 pb-8 md:py-10 gap-10 lg:flex-row mb-2">
+      
+      {/* Background Image Container */}
+      {/* FIX 1: Set z-0 instead of a negative index to prevent mobile Safari/Chrome from hiding the image */}
       <div className="absolute inset-0 w-full h-full z-0">
         <Image
           src="/images/HERO-BG.webp"
@@ -13,24 +14,22 @@ const Hero = () => {
           fill
           priority
           sizes="100vw"
-          // FIX 3: Changed object-center to object-[30%_center] or object-left 
-          // Wide background subjects (like a yoga pose) get cropped off on mobile unless you anchor the focus to the side.
-          className="object-cover object-[30%_center]"
+          // FIX 2: Changed object-center to object-left. 
+          // This ensures the left side of your image (where your subject is) stays perfectly visible on mobile.
+          className="object-cover object-left"
         />
-        {/* OPTIONAL OVERLAY: Ensures the yellow card and future text remain readable if the background has stark lighting */}
+        {/* Subtle dark tint overlay to make sure text and the yellow box stand out clearly */}
         <div className="absolute inset-0 bg-black/10 z-0" />
       </div>
 
       {/* Left Content */}
-      {/* FIX 4: Changed z-20 to z-10 to sit cleanly above z-0 background. Added a min-h placeholder class so it reserves layout space */}
-      <div className="relative z-10 flex flex-1 flex-col justify-center xl:w-1/2 px-5 md:px-10 min-h-[150px] md:min-h-0">
-        {/* Pro Tip: Even a hidden or placeholder header keeps your responsive layout from breaking */}
-        <h1 className="text-3xl md:text-5xl font-bold text-white drop-shadow-md hidden">
-          Yoga & Radio Station
-        </h1>
+      {/* FIX 3: Set z-10 to stay safely on top of the image container */}
+      <div className="relative z-10 flex flex-1 flex-col justify-center xl:w-1/2 px-5 md:px-10 min-h-[120px] md:min-h-0">
+        {/* Even if empty, this space is now safely positioned over the left-aligned image subject */}
       </div>
 
       {/* Right Content */}
+      {/* FIX 4: Aligned the yellow box to the bottom on mobile to keep the left/top image subject clean and visible */}
       <div className="relative z-10 flex flex-1 items-end md:items-start mt-auto md:mt-0 px-5 md:px-0 justify-center lg:justify-start">
         <div className="flex w-full max-w-[320px] flex-col gap-4 rounded-3xl bg-yellow-400 px-4 py-4 shadow-lg mb-4 md:mb-0">
           <div className="flex flex-col">
