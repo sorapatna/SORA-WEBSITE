@@ -22,7 +22,7 @@ const Hero = () => {
       </div>
 
       {/* Right Content */}
-      <div className="relative z-20 flex flex-1 items-start mt-10 md:mt-0 mb-10 md:mb-20 px-5 md:px-0">
+      <div className="relative z-20 flex flex-1 items-start mt-10 md:mt-0 mb-10 md:mb-20 px-10 md:px-0">
         <div className="flex w-full max-w-[320px] flex-col gap-4 rounded-3xl bg-yellow-400 px-4 py-4 shadow-lg">
           <div className="flex flex-col">
             <div className="flex justify-between items-center">
