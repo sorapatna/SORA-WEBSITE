@@ -30,7 +30,7 @@ const Hero = () => {
 
       {/* Right Content */}
       {/* FIX 4: Aligned the yellow box to the bottom on mobile to keep the left/top image subject clean and visible */}
-      <div className="relative z-30 flex flex-1 items-end md:items-start mt-auto md:mt-0 px-5 md:px-0 justify-center lg:justify-start">
+      <div className="relative z-10 flex flex-1 items-end md:items-start mt-auto md:mt-0 px-15 md:px-0 justify-center lg:justify-start">
         <div className="flex w-full max-w-[320px] flex-col gap-4 rounded-3xl bg-yellow-400 px-4 py-4 shadow-lg mb-4 md:mb-0">
           <div className="flex flex-col">
             <div className="flex justify-between items-center">
